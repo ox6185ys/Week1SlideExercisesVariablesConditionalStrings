@@ -9,6 +9,35 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("abc");
+        String cde = "cde";
+        System.out.println("abc" + cde);
+        String c = "abc".substring(2,3);
+        String d = cde.substring(1, 2);
+
+        System.out.println(c);
+        System.out.println(d);
+
+/*        System.out.println("Are you running Win8 or Win7?");
+        String currentOS = stringScanner.nextLine();
+        System.out.println("How fast is your CPU?");
+        int ram = numberScanner.nextInt();
+        System.out.println("How much RAM does your computer have?");
+        double cpu = numberScanner.nextDouble();
+        if (currentOS.equalsIgnoreCase("Win8") || currentOS.equalsIgnoreCase("Win7") && ram >= 2 && cpu >=1){
+            System.out.println("You can install Windows 10. ");
+        }else {
+            System.out.println("You can't install Windows 10.");
+        }*/
+
+/*        System.out.println("Do you like snow?  Answer Y for yes.");
+        String likesSnow = stringScanner.nextLine();
+        System.out.println("Do you like thunder?  Answer Y for yes.");
+        String likesStorms = stringScanner.nextLine();
+        if (likesSnow.equalsIgnoreCase("Y") || likesStorms.equalsIgnoreCase("Y")){
+            System.out.println("Snow sucks but thunder is good.");
+        }*/
+
 
 
 /*        System.out.println("What is your weight?");
