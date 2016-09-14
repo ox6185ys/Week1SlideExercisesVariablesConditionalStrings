@@ -7,6 +7,55 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("What school do you go to?");
+        String college = numberScanner.nextLine();
+
+        //if (college == "MCTC"){
+        if (college.equalsIgnoreCase("MCTC")){
+            System.out.println("Yesss!  Good choice.");
+        }else {
+            System.out.println("Too bad..  You should go to MCTC.");
+        }
+
+/*        System.out.println("How many miles do you live from MCTC?");
+        int distanceFromMCTC = numberScanner.nextInt();
+        if (distanceFromMCTC == 10){
+            System.out.println("You live 10 miles from MCTC.");
+        }else if (distanceFromMCTC > 10){
+            System.out.println("You live farther than 10 miles from MCTC.");
+        }else{
+            System.out.println("You live closer than 10 miles.");
+        }*/
+
+/*        System.out.println("Quiz time!");
+        System.out.println("What year did Apollo 11 land on the moon? ");
+
+        int answer = numberScanner.nextInt();
+
+        if (answer != 1969){
+            System.out.println("Wrong.  It was 1969");
+        }*/
+
+        /*int secretNumber = 6;
+        System.out.println("Guess the secret number. ");
+        int guess = numberScanner.nextInt();
+        if (guess == secretNumber){
+            System.out.println("You guessed correctly! ");
+        }*/
+
+
+
+/*
+        System.out.println("What is today's forcast high temp? ");
+        double temp = numberScanner.nextDouble();
+
+        if (temp > 32){
+            System.out.println("It's above freezing.");
+        }else {
+            System.out.println("It's cold outside!");
+        }
+*/
+
 
 /*        int numberOfRides = 30;//These need to be double, not int.
         int daysOfFair = 12;//These need to be double, not int.
@@ -47,12 +96,12 @@ public class Main {
 
         System.out.println();*/
 
-
+/*
         double widgetPrice = 4.57;
         double widgetsNeeded = 56;
 //      double shippingPrice = 22.23;
         double allWidgetCost = (widgetPrice * widgetsNeeded);
-        System.out.println(Math.round(allWidgetCost*100.0)/100.0);
+        System.out.println(Math.round(allWidgetCost*100.0)/100.0);*/
 
     }
 }
