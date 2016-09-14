@@ -1,4 +1,6 @@
 package com.patrick;
+import com.sun.org.apache.xpath.internal.operations.String;
+
 import java.util.*;
 public class Main {
 
@@ -7,7 +9,38 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("What school do you go to?");
+        String sentence = "I'm a sentence";
+
+/*        java.lang.String sentence = "I'm a sentence";
+        if (sentence.endsWith(".") == false){
+            System.out.println("A sentence should end with a period.");
+        }*/
+
+/*        int secretNumber = 6;
+        System.out.println("Guess the number I'm thinking.");
+        int guess = numberScanner.nextInt();
+        if (guess == secretNumber){
+            System.out.println("You're right!");
+        }else if (guess - secretNumber == 1){
+            System.out.println("You guessed 1 too high.");
+        }else if (secretNumber-guess ==1){
+            System.out.println("You guessed 1 too low.");
+        }else {
+            System.out.println("No.  I was thinking of " + secretNumber);
+        }*/
+
+/*        System.out.println("What shall we have for dinner?");
+        String dinnerSuggestion = stringScanner.nextLine();
+        if (dinnerSuggestion.equalsIgnoreCase("Pizza")){
+            System.out.println("Eccellente! Let's have pizza.");
+        }else if (dinnerSuggestion.equalsIgnoreCase("Tacos")){
+            System.out.println("Muy Bien!  Let's have tacos.");
+        }else {
+            System.out.println("Only pizza of tacos, jerkey!");
+        }*/
+
+
+/*        System.out.println("What school do you go to?");
         String college = numberScanner.nextLine();
 
         //if (college == "MCTC"){
@@ -15,7 +48,7 @@ public class Main {
             System.out.println("Yesss!  Good choice.");
         }else {
             System.out.println("Too bad..  You should go to MCTC.");
-        }
+        }*/
 
 /*        System.out.println("How many miles do you live from MCTC?");
         int distanceFromMCTC = numberScanner.nextInt();
