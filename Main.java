@@ -1,5 +1,5 @@
 package com.patrick;
-import com.sun.org.apache.xpath.internal.operations.String;
+//package com.company;
 
 import java.util.*;
 public class Main {
@@ -9,7 +9,23 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String sentence = "I'm a sentence";
+
+
+/*        System.out.println("What is your weight?");
+        double weight = numberScanner.nextDouble();
+        System.out.println("How old are you?");
+        int age = numberScanner.nextInt();
+        if((weight <= 110 || weight > 500) && (age >= 17 || age >75)){
+            System.out.println("You're too fat!");
+        }else {
+            System.out.println("You've a vampire.");
+        }*/
+
+
+/*        String sentence = "I'm a sentence";
+        if ((sentence.endsWith(".") != true )){
+            System.out.println("You need a period at the end.");
+        }*/
 
 /*        java.lang.String sentence = "I'm a sentence";
         if (sentence.endsWith(".") == false){
@@ -129,11 +145,11 @@ public class Main {
 
         System.out.println();*/
 
-/*
-        double widgetPrice = 4.57;
+/*        double widgetPrice = 4.57;
         double widgetsNeeded = 56;
 //      double shippingPrice = 22.23;
         double allWidgetCost = (widgetPrice * widgetsNeeded);
+        System.out.println(String.format("Total is %.2f",allWidgetCost));
         System.out.println(Math.round(allWidgetCost*100.0)/100.0);*/
 
     }
